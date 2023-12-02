@@ -1,0 +1,26 @@
+ .loggo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-responsive {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 220px;;
+  }
+ .cls{
+    text-align: center;
+    justify-content: center;
+    margin-left: 685px;
+ }
+ #contentArea {
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    justify-items: center;
+    align-items: center;
+}
